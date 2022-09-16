@@ -17,6 +17,7 @@ public class SortArray {
 			System.out.println("The sorted integer array is: " + SortInt.sort_int(str));
 		} 
 		catch (NumberFormatException e) {
+			//if it is not an integer
 			System.out.println("The sorted character array is: " + SortStr.sort_str(str));
 		}
 	}
